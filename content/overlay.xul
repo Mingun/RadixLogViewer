@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay id="radixlogviewer" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://radixlogviewer/content/overlay.js"/>
+</overlay>
