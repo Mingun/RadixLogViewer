@@ -1,6 +1,6 @@
-# component {05ae4c83-8abc-4375-9d2e-899c8e1385cb} components/converter.js
-# contract @mozilla.org/streamconv;1?from=text/xml&to=*/* {05ae4c83-8abc-4375-9d2e-899c8e1385cb}
-# category net-content-sniffers RW_Converter @mozilla.org/streamconv;1?from=text/xml&to=*/*
+component {05ae4c83-8abc-4375-9d2e-899c8e1385cb} components/converter.js
+contract @mozilla.org/streamconv;1?from=application/radixlog&to=*/* {05ae4c83-8abc-4375-9d2e-899c8e1385cb}
+category net-content-sniffers RW_Converter @mozilla.org/streamconv;1?from=application/radixlog&to=*/*
 
 content   radixlogviewer                content/ contentaccessible=yes
 # skin      radixlogviewer  classic/1.0   skin/
