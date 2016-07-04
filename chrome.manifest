@@ -5,6 +5,6 @@ category net-content-sniffers RW_Converter @mozilla.org/streamconv;1?from=applic
 content   radixlogviewer                content/ contentaccessible=yes
 # skin      radixlogviewer  classic/1.0   skin/
 # locale    radixlogviewer  en-US         locale/en-US/
-# resource  grid                          content/SlickGrid/
+resource  grid                          content/SlickGrid/
 
 overlay chrome://browser/content/browser.xul  chrome://radixlogviewer/content/overlay.xul

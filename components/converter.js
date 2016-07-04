@@ -22,7 +22,7 @@ let RW_Converter = (function() {
   const LOG_NS      = "http://schemas.radixware.org/systemcommands.xsd";
   const ROOT_NAME   = "EventList";
   const ROOT_NAME_RE= new RegExp('^'+ROOT_NAME+'$', 'i');
-  const LAYOUT_PATH = "chrome://radixlogviewer/content/layout.xhtml";
+  const LAYOUT_PATH = "chrome://radixlogviewer/content/layout.html";
   // const MIME_TYPE   = "application/radixlog";
   const MIME_TYPE   = "application/radixlog";
 
@@ -153,7 +153,7 @@ let RW_Converter = (function() {
       // 2) Чтобы в браузере использовался HTML-документ, а не XML документ, с которым jQuery работать
       //    не может, т.к. в XML документе нет многих свойств.
       aRequest.QueryInterface(Ci.nsIChannel);
-      aRequest.contentType = "application/xhtml+xml";
+      aRequest.contentType = "text/html";
       this._listener.onStartRequest(aRequest, aContext);
     },
     onStopRequest: function(aRequest, aContext, aStatusCode) {
